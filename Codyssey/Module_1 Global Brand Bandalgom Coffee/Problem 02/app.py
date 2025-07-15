@@ -20,7 +20,7 @@ app = Flask(__name__)
 # 실행할 함수는 아래에 작성하면 된다.
 @app.route("/") # 요구사항 2
 def hello_world(): # 요구사항 3
-    message = "Hello, DevOps"
+    message = "Hello, DevOps!"
     return message # 요구사항 4
 
 if __name__ == "__main__": # 이 코드는 이 파일이 직접 실행될 때만 아래 코드를 실행하겠다는 의미이다.
